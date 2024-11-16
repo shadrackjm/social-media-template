@@ -5,7 +5,7 @@
             <img class="inline-block h-[38px] w-[38px] rounded-full" src="https://images.unsplash.com/photo-1531927557220-a9e23c1e4794?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Avatar">
             <div class="grow flex items-center gap-x-2">
                 <div class="flex gap-1">
-                    <span class="text-sm font-semibold text-gray-800 dark:text-neutral-200">Christina Bersh</span>
+                    <span class="text-sm font-semibold text-gray-800 dark:text-neutral-400">Christina Bersh</span>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
                     </svg>
@@ -66,11 +66,9 @@
                 --}}
             </div>
             <p class="text-sm">By default, the mega menu is closed when clicking inside or outside the mega menu. You can use the class option to change this behavior of the mega menu.</p>
-
+            <a href=""><span class="text-gray-400 text-sm">view all 1,294 comments</span></a>
         </div>
     </div>
-
-  
   </div>
   <!-- End Card -->
 </div>

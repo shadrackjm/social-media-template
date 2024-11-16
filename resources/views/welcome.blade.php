@@ -126,7 +126,7 @@
   <div id="hs-application-sidebar" class="hs-overlay  [--auto-close:lg]
     hs-overlay-open:translate-x-0
     -translate-x-full transition-all duration-300 transform
-    w-[260px] h-full
+    w-[270px] h-full
     hidden
     fixed inset-y-0 start-0 z-[60]
     bg-white border-e border-gray-200
@@ -204,6 +204,9 @@
     <h2 class="text-xl font-medium mb-4">Suggested</h2>
     <hr>
     <livewire:followers-list />
+    <div>
+      <livewire:footer />
+    </div>
 </aside>
 
   </div>

@@ -14,6 +14,9 @@ class FollowersList extends Component
         $this->followers = [
             ['name' => 'John Doe', 'username' => '@johndoe'],
             ['name' => 'Jane Smith', 'username' => '@janesmith'],
+            ['name' => 'Jane Smith', 'username' => '@janesmith'],
+            ['name' => 'Jane Smith', 'username' => '@janesmith'],
+            ['name' => 'Jane Smith', 'username' => '@janesmith'],
             // Add more mock data or fetch from a data source
         ];
     }
