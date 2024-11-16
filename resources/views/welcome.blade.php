@@ -16,6 +16,7 @@
       <div class="me-5 lg:me-0 lg:hidden">
         <!-- Logo -->
         <x-application-logo />
+      </div>
       <div class="w-full flex items-center justify-end ms-auto md:justify-between gap-x-1 md:gap-x-3">
   
         <div class="hidden md:block">
