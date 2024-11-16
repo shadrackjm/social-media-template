@@ -202,7 +202,7 @@
   <!-- End Content -->
   <!-- ========== END MAIN CONTENT ========== -->
   <aside class="w-1/2 bg-white dark:bg-neutral-800 p-4 border-l hidden sm:block">
-    <h2 class="text-xl font-medium mb-4">Suggested</h2>
+    <h2 class="text-md text-gray-400 font-medium mb-4 dark:text-neutral-400">Suggested</h2>
     <hr>
     <livewire:followers-list />
     <div>
