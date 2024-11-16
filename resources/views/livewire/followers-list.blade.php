@@ -1,6 +1,6 @@
 <!-- resources/views/livewire/followers-list.blade.php -->
 
-<div class="space-y-4">
+<div class="space-y-4 ">
     @foreach($followers as $follower)
     <div class="ps-4 lg:ps-2 xl:ps-0 pe-4 py-1">
         <div class="flex items-center gap-x-3">
