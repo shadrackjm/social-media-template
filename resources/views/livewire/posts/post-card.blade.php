@@ -21,7 +21,7 @@
     
 <!-- Card -->
 <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
-    <img class="h-52 flex flex-col justify-center items-center bg-blue-600 rounded-t-xl" src="" alt="post image">
+    <img class=" flex flex-col justify-center items-center bg-blue-600 rounded-t-xl" src="{{ asset('images/flow-1161686.jpg')}}" alt="post image">
       
     <div>
         <div class="flex p-1  md:p-1 justify-between">
