@@ -10,7 +10,7 @@
             <span class="block text-sm text-gray-500 dark:text-neutral-500">christina@site.com</span>
           </div>
           <div>
-            <button  class="text-blue-500 font-medium">Follow</button>
+            <button  class="text-blue-500 font-medium text-sm">Follow</button>
           </div>
         </div>
       </div>
