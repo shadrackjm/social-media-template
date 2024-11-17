@@ -11,10 +11,10 @@
                     </svg>
                 </div>
             </a>
-                <span class="text-gray-500 text-xs">16m</span>
+                <span class="text-gray-500 text-xs hidden md:block">16m</span>
         </div>
             <div>
-                <button  class="text-blue-500 font-medium">Follow</button>
+                <button  class="text-blue-500 font-medium text-sm hidden md:block">Follow</button>
             </div>
         </div>
     </div>
@@ -22,7 +22,6 @@
 <!-- Card -->
 <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
     <img class=" flex flex-col justify-center items-center bg-blue-600 rounded-t-xl" src="{{ asset('images/flow-1161686.jpg')}}" alt="post image">
-      
     <div>
         <div class="flex p-1  md:p-1 justify-between">
             <div class="flex gap-x-3 ">
@@ -54,7 +53,7 @@
         </div>
         {{-- comments text starts here --}}
         <div class="p-1 md:p-1">
-            <span class="text-sm dark:text-neutral-500">16 likes</span>
+            <span class="text-sm dark:text-neutral-500 text-gray-600">16 likes</span>
             <div class="flex gap-1">
                 <span class="text-sm font-semibold text-gray-800 dark:text-neutral-200">Christina Bersh</span>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 text-blue-500">
@@ -65,7 +64,7 @@
                     </svg>
                 --}}
             </div>
-            <p class="text-sm dark:text-neutral-300">By default, the mega menu is closed when clicking inside or outside the mega menu. You can use the class option to change this behavior of the mega menu.</p>
+            <p class="text-sm text-gray-700 dark:text-neutral-300">By default, the mega menu is closed when clicking inside or outside the mega menu. You can use the class option to change this behavior of the mega menu.</p>
             <a href=""><span class="text-gray-400 text-sm dark:text-neutral-500">view all 1,294 comments</span></a>
             <div class="flex">
             <input type="email" class="peer py-3 pe-0 ps-8 block w-full bg-transparent border-t-transparent border-b-2 border-x-transparent border-b-gray-200 text-sm focus:border-t-transparent focus:border-x-transparent focus:border-b-blue-500 focus:ring-0 disabled:opacity-50 disabled:pointer-events-none dark:border-b-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600 dark:focus:border-b-neutral-600" placeholder="Add a comment...">

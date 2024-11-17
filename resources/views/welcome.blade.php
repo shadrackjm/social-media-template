@@ -107,7 +107,7 @@
         <!-- Breadcrumb -->
         <ol class="ms-3 flex items-center whitespace-nowrap">
           <li class="flex items-center text-sm text-gray-800 dark:text-neutral-400">
-            Application Layout
+            Home
             <svg class="shrink-0 mx-3 overflow-visible size-2.5 text-gray-400 dark:text-neutral-500" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M5 1L10.6869 7.16086C10.8637 7.35239 10.8637 7.64761 10.6869 7.83914L5 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
             </svg>
@@ -202,7 +202,10 @@
   <!-- End Content -->
   <!-- ========== END MAIN CONTENT ========== -->
   <aside class="w-1/2 bg-white dark:bg-neutral-800 p-4 border-l hidden sm:block">
-    <h2 class="text-md text-gray-400 font-medium mb-4 dark:text-neutral-400">Suggested</h2>
+    <div class="flex justify-between">
+      <h2 class="text-md text-gray-400 font-medium mb-4 dark:text-neutral-400">Suggested for you</h2>
+      <a href="" class="text-sm text-gray-700">See all</a>
+    </div>
     <hr>
     <livewire:followers-list />
     <div>
