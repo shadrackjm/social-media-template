@@ -1,8 +1,11 @@
 <?php
 
+use App\Livewire\AddPost;
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome');
+
+Route::get('/add-post',AddPost::class);
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])

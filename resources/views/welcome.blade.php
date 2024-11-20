@@ -15,7 +15,10 @@
     <nav class="px-4 sm:px-6 flex basis-full items-center w-full mx-auto">
       <div class="me-5 lg:me-0 lg:hidden">
         <!-- Logo -->
-        <x-application-logo />
+        <div class="flex gap-3">
+          <x-application-logo />
+          <h2 class="font-medium text-2xl hidden lg:block dark:text-neutral-200">Mballah Tech</h2>
+        </div>
       </div>
       <div class="w-full flex items-center justify-end ms-auto md:justify-between gap-x-1 md:gap-x-3">
   
@@ -135,7 +138,11 @@
     <div class="relative flex flex-col h-full max-h-full">
       <div class="px-6 pt-4">
         <!-- Logo -->
-        <x-application-logo /> 
+        <div class="flex gap-3">
+          <x-application-logo />
+          <h2 class="font-medium text-2xl hidden lg:block dark:text-neutral-200">Mballah Tech</h2>
+
+        </div> 
     </div>
   
       <!-- Content -->
